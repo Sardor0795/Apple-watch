@@ -304,7 +304,7 @@ button {
 .feature-section {
   padding-top: 240px;
   padding-bottom: 240px;
-  background-image: url("../img/runners 1.jpg");
+  background-image: url("../img/runners.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -357,6 +357,6 @@ button {
   }
 
   .feature-section {
-    background-image: url("../img/runners 1@2x.jpg");
+    background-image: url("../img/runners@2x.jpg");
   }
 }
