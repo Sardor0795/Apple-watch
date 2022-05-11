@@ -100,9 +100,7 @@ button {
   opacity: 0.6;
 }
 
-
 /* CONTAINER */
-
 
 .container {
   width: 100%;
@@ -113,9 +111,7 @@ button {
   margin-right: auto;
 }
 
-
 /* CONTENT BLOCK */
-
 
 .content-block {
   width: 50%;
@@ -146,9 +142,7 @@ button {
   border-left-color: var(--accent-color);
 }
 
-
 /* HEADER */
-
 
 .site-header {
   padding-top: 30px;
@@ -188,17 +182,13 @@ button {
   margin-right: 30px;
 }
 
-
 /* MAIN CONTENT */
-
 
 .main-content {
   flex-grow: 1;
 }
 
-
 /* HERO SECTION */
-
 
 .hero-section {
   display: flex;
@@ -209,9 +199,7 @@ button {
   border-bottom: 2px solid #dddddd;
 }
 
-
 /* INFO CARD SECTION */
-
 
 .info-card-section {
   padding-top: 70px;
@@ -286,9 +274,7 @@ button {
   margin-left: 10px;
 }
 
-
 /* BRAND SECTION */
-
 
 .brand-section {
   display: flex;
@@ -313,9 +299,7 @@ button {
   margin-left: 100px;
 }
 
-
 /* FEATURE SECTION */
-
 
 .feature-section {
   padding-top: 240px;
@@ -356,9 +340,7 @@ button {
   border-left-color: var(--accent-color);
 }
 
-
 /* RETINA DISPLAY */
-
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min--moz-device-pixel-ratio: 2),
