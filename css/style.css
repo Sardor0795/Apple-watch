@@ -41,7 +41,7 @@ body {
 a {
   text-decoration: none;
   color: #333333;
-  transition: color 0.3s, opacity 0.3s;
+  transition: color 0.3s, opacity 0.3s, background-color 0.3s;
 }
 
 a:hover {
@@ -89,7 +89,7 @@ button {
   line-height: 150%;
   text-transform: uppercase;
   color: #ffffff;
-  transition: color 0.3s, opacity 0.3s;
+  transition: color 0.3s, opacity 0.3s, background-color 0.3s;
 }
 
 .btn:hover {
@@ -152,7 +152,6 @@ button {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .header-logo {
@@ -167,6 +166,8 @@ button {
 
 .site-nav-lists {
   display: flex;
+  margin-left: auto;
+  margin-right: 40px;
 }
 
 .site-nav-list {
@@ -182,6 +183,17 @@ button {
   margin-right: 30px;
 }
 
+.search {
+  border: 0;
+  color: #666666;
+  border-bottom: 1px solid #333;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 /* MAIN CONTENT */
 
 .main-content {
@@ -195,7 +207,7 @@ button {
   background-image: url("../img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: right center;
+  background-position: calc(50% + 550px) bottom;
   border-bottom: 2px solid #dddddd;
 }
 
@@ -240,9 +252,9 @@ button {
   line-height: 160%;
   text-transform: uppercase;
   color: var(--accent-color);
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  transition: color 0.3s, opacity 0.3s;
+  transition: color 0.3s, opacity 0.3s, background-color 0.3s;
 }
 
 .info-learn-more::before {
@@ -252,6 +264,7 @@ button {
   background-color: var(--accent-color);
   display: inline-block;
   margin-right: 10px;
+  transition: width 0.3s;
 }
 
 .info-learn-more:hover {
@@ -264,14 +277,16 @@ button {
   opacity: 0.6;
 }
 
+.info-learn-more:hover.info-learn-more::before {
+  width: 60px;
+}
+
 .info-card-dot {
   width: 8px;
   height: 8px;
+  border: none;
   background-color: #dddddd;
-}
-
-.info-card-dot:not(:first-child) {
-  margin-left: 10px;
+  box-shadow: 16px 0 0 0 #dddddd, 32px 0 0 0 #dddddd;
 }
 
 /* BRAND SECTION */
@@ -308,6 +323,7 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 .feature-container {
