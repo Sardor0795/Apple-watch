@@ -14,8 +14,6 @@ html {
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
   box-sizing: inherit;
 }
 
@@ -58,13 +56,6 @@ li {
 
 img {
   display: block;
-}
-
-h1,
-h2,
-h3 {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 a,
@@ -125,6 +116,7 @@ button {
   font-size: 50px;
   line-height: 120%;
   color: #000;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -154,7 +146,7 @@ button {
   align-items: center;
 }
 
-.header-logo-wrapper{
+.header-logo-wrapper {
   display: flex;
 }
 
@@ -237,6 +229,7 @@ button {
   line-height: 150%;
   text-transform: uppercase;
   color: #222222;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -329,7 +322,6 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  /* background-attachment: fixed; */
 }
 
 .feature-container {
