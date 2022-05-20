@@ -63,8 +63,8 @@ img {
 h1,
 h2,
 h3 {
-  padding: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a,
@@ -154,6 +154,10 @@ button {
   align-items: center;
 }
 
+.header-logo-wrapper{
+  display: flex;
+}
+
 .header-logo {
   width: 35px;
   height: 40px;
@@ -173,10 +177,12 @@ button {
 .site-nav-list {
   padding-top: 6px;
   padding-bottom: 6px;
+  transition: color 0.3s;
+  border-bottom: 1px solid #fff;
 }
 
 .site-nav-list:hover {
-  border-bottom: 1px solid #666666;
+  border-bottom-color: #666666;
 }
 
 .site-nav-list:not(:last-child) {
@@ -322,8 +328,8 @@ button {
   background-image: url("../img/runners.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: center top;
+  /* background-attachment: fixed; */
 }
 
 .feature-container {
