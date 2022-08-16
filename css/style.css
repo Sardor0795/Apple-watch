@@ -321,6 +321,7 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+  background-attachment: fixed;
 }
 
 .feature-container {
@@ -332,16 +333,8 @@ button {
   padding: 0;
 }
 
-.feature-section .content-block-title a {
+.feature-section .content-block-title {
   color: #ffffff;
-}
-
-.feature-section .content-block-title a:hover {
-  opacity: 0.8;
-}
-
-.feature-section .content-block-title a:active {
-  opacity: 0.6;
 }
 
 .feature-section .content-block-text {
