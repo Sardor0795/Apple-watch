@@ -243,10 +243,6 @@ button {
   margin-bottom: 20px;
 }
 
-.info-card-dots {
-  display: flex;
-}
-
 .info-learn-more {
   font-weight: 700;
   font-size: 16px;
@@ -283,6 +279,7 @@ button {
 }
 
 .info-card-dot {
+  display: inline-block;
   width: 8px;
   height: 8px;
   border: none;
