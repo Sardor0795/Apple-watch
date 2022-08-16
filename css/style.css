@@ -126,6 +126,7 @@ button {
   color: #777777;
   padding-left: 40px;
   border-left: 3px solid #888888;
+  margin-top: 0;
   margin-bottom: 30px;
   transition: color 0.3s;
 }
