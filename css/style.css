@@ -171,11 +171,23 @@ button {
   padding-top: 6px;
   padding-bottom: 6px;
   transition: color 0.3s;
-  border-bottom: 1px solid #fff;
+  position: relative;
 }
 
-.site-nav-list:hover {
-  border-bottom-color: #666666;
+.site-nav-list::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  background-color: #666666;
+  height: 1px;
+  transition: width 0.3s ease;
+}
+
+.site-nav-list:hover::after {
+  left: 0;
+  width: 100%;
 }
 
 .site-nav-list:not(:last-child) {
